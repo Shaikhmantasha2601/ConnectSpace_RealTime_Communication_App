@@ -1,0 +1,1 @@
+{"private":true,"scripts":{"install:all":"npm i && npm --prefix server i && npm --prefix client i","dev":"concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\""},"devDependencies":{"concurrently":"^9.2.1"}}
